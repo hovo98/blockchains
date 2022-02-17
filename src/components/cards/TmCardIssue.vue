@@ -6,9 +6,6 @@
     .tm-card-issue__icon(v-if="icon"): img(v-lazy="iconSrc" alt="Icon")
     .tm-card-issue__subtitle(v-if="$slots['problem-subtitle']")
       slot(name='problem-subtitle')
-  .tm-card-issue__arrow
-    img(src="~assets/images/home/icon-arrow-down.svg" alt="Arrow down icon")
-  .tm-card-issue__container.tm-card-issue__container--solution
     .tm-card-issue__solution-title(v-if="$slots['solution-title']")
       slot(name='solution-title')
     .tm-card-issue__subtitle(v-if="$slots['solution-subtitle']")
@@ -52,7 +49,7 @@ export default {
   font-family var(--ff-brand)
   font-weight var(--fw-semibold)
   font-size 1.5rem
-  line-height 4rem
+  line-height 2rem
   letter-spacing var(--tracking-0)
   width 100%
 

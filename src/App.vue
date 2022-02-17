@@ -29,7 +29,7 @@ export default {
     return {
       newsletterShow: true,
       newsletter: {
-        h1: "Sign up for Cosmos updates",
+        h1: "Email capture",
         h2:
           "Get the latest from the Cosmos ecosystem and engineering updates, straight to your inbox.",
         topics: [
@@ -184,7 +184,7 @@ export default {
           }
         ],
         smallprint:
-          "This website is maintained by Tendermint Inc. The contents and opinions of this website are those of Tendermint Inc."
+          "This website was created for Dyson Protocol by Sibil Singleton using the Cosmos.Network website theme."
       }
     }
   },
@@ -192,7 +192,7 @@ export default {
     // default title if metaInfo.title unspecified
     title: "Internet of Blockchains",
     // all titles will be injected into this template
-    titleTemplate: "%s - Cosmos Network"
+    titleTemplate: "%s - Dyson Protocol"
   },
   mounted() {
     this.$store.commit("initializeBlog")

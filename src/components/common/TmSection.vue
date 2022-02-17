@@ -315,14 +315,7 @@ export default {
   letter-spacing 0.25rem
   text-transform uppercase
   margin-bottom 2rem
-  &:before
-    content ''
-    background-image url('~assets/images/site/cosmos-wordmark-black.svg')
-    background-size 111px 20px
-    width 111px
-    height 20px
-    display inline-block
-    margin-right 0.75rem
+
 
 .tm-section__goz-wordmark
   margin-top 2rem
@@ -354,8 +347,6 @@ export default {
     .tm-btn__icon
       color var(--dark-txt)
 
-  .tm-section__project-title:before
-    background-image url('~assets/images/site/cosmos-wordmark.svg')
 
 .tm-section--stars
   background url('~images/site/bg-tile-stars.svg'), var(--dark-bg) !important

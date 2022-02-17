@@ -5,50 +5,50 @@ div
       iframe(width="100%" height="510" src="https://www.youtube.com/embed/Eb8xkDi_PUg?autoplay=1&controls=1&rel=0&modestbranding=1&fs=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
   div
     tm-section#section-hero(theme="dark" layout="hero")
-      div(slot="suptitle") The foundation for a new token economy
+      div(slot="suptitle") Everything On Chain
       div(slot="title")
         .phone Join the #[strong most powerful] ecosystem of connected blockchains
-        .tablet.laptop.desktop Join the #[strong most {{ adjectiveCurrent }}] #[br] ecosystem of connected blockchains
-      tm-btn(size="lg" value="watch video" icon="play_circle_outline" type="anchor"
-        icon-pos="right" color="primary" @click.native="videoPlay(true)")
-      tm-btn(size="lg" value="learn more" v-scroll-to="'#section-problems'"
-        icon="arrow_downward" icon-pos="right")
+        .tablet.laptop.desktop #[strong {{ adjectiveCurrent }}] #[br]  Simple scripts, on chain, in Python.
       div(slot="image")
-        img.phone.tablet(src="~assets/images/home/section-hero-mobile.svg" alt="Hero image")
-        img.laptop(src="~assets/images/home/section-hero-desktop.svg" alt="Hero image")
-        img.desktop(src="~assets/images/home/section-hero-desktop.svg" alt="Hero image")
+        img.phone.tablet(src="~assets/images/home/section-hero-mobile.png" alt="Hero image")
+        img.laptop(src="~assets/images/home/section-hero-desktop.png" alt="Hero image")
+        img.desktop(src="~assets/images/home/section-hero-desktop.png" alt="Hero image")
 
     tm-section#section-problems(layout="center")
-      div(slot="title") Cosmos solves today's hardest blockchain problems
+      div(slot="title") Made For Developers
       .tm-cards-issue
 
+        tm-card-issue(icon="bimage")
+          template(slot="problem-title") Simple, Secure Scripts In Python
+          template(slot="problem-subtitle") Code in simple syntax that you're already used to. Dyson Protocol reads Python and outputs in REST / JSON. Dyson solves the difficult security problems that makes this impossible on other chains..
+
+        tm-card-issue(icon="cimage")
+          template(slot="problem-title") Fully Interoperable with the Cosmos Ecosystem
+          template(slot="problem-subtitle") Dyson operates using the Cosmos SDK and Inter-Blockchain Communication Protocol. <br><br><br>
+
+        tm-card-issue(icon="dimage")
+          template(slot="problem-title") Build A Decentralized Website or Web App
+          template(slot="problem-subtitle") Dyson allows you to build serverless websites and DAPPs on the blockchain. Presentation and interface are distributed and built into the protocol. Everything is on chain.
+
+
         tm-card-issue(icon="scalability")
-          template(slot="problem-title") Scalability
-          template(slot="problem-subtitle") Proof-of-Work protocols are slow, expensive, unscalable, and environmentally harmful.
-          template(slot="solution-title") Tendermint BFT fixes this.
-          template(slot="solution-subtitle") Tendermint BFT is a byzantine fault tolerant consensus engine that powers Cosmos Proof-of-Stake.
+          template(slot="problem-title") Variable Fees
+          template(slot="problem-subtitle") Transaction fees are based on the complexity of your script. Simple scripts = low fees.
 
         tm-card-issue(icon="usability")
-          template(slot="problem-title") Usability
-          template(slot="problem-subtitle") Blockchain applications are complex and difficult to understand for developers.
-          template(slot="solution-title") Cosmos SDK fixes this.
-          template(slot="solution-subtitle") Cosmos SDK is a modular framework for building interoperable, application-specific blockchains.
+          template(slot="problem-title") Proof Of Stake
+          template(slot="problem-subtitle") DYS is proof of stake. Validators can sleep well knowing mining DYS is low environmental impact.
 
         tm-card-issue(icon="interoperability")
-          template(slot="problem-title") Interoperability
-          template(slot="problem-subtitle") Blockchain economies are siloed and cannot transfer assets between each other.
-          template(slot="solution-title") IBC Protocol fixes this.
-          template(slot="solution-subtitle") Interblockchain Communication (IBC) is a TCP/IP-like messaging protocol for blockchains.
+          template(slot="problem-title") Easy Development
+          template(slot="problem-subtitle") DYS is designed for developers. Low learning curve. Use code you already know.
 
-      tm-btn(
-        value="Tools" size="lg" type="link" :to="{ name: 'tools' }"
-        icon="arrow_forward" icon-pos="right")
 
     tm-section#section-sdk(layout="split" theme="dark")
-      div(slot="project-title") SDK
-      div(slot="title") Launch your application-specific blockchain today
-      p Our SDK is the first ever modular framework for developers to quickly and easily build custom blockchains in Go.
-      tm-btn(size="lg" value="Learn More" type="link" :to="{ name: 'product-sdk' }"
+      div(slot="title") Why Dyson Protocol?
+      p We're building an ecosystem that rewards contributors and early adopters. Our goal is to make it easy to program on the blockchain.<br>
+      p How easy? This website is hosted on chain and the hosting is fully distributed.
+      tm-btn(size="lg" value="See the script" type="link" :to="{ name: 'product-sdk' }"
         icon="arrow_forward" icon-pos="right")
       div(slot="image")
         .phone: img(src="~assets/images/home/section-sdk-mobile.svg" alt="SDK")
@@ -57,19 +57,14 @@ div
         .desktop
 
     tm-section(layout="split" theme="stars")
-      div(slot="stargate-title") stargate
-      div(slot="title") The Internet of Blockchains is on the horizon
-      p Stargate is a set of upgrades that complete the original roadmap laid out in the Cosmos Whitepaper. For the first time ever, Cosmos blockchains will be able to connect with each other.
-      tm-btn(size="lg" value="get ready" type="anchor"  icon="arrow_forward"
-        icon-pos="right" href="https://stargate.cosmos.network" target="_blank" rel="noreferrer noopener")
+      div(slot="stargate-title") About Dyson Protocol
+      div(slot="title") Dyson Protocol is developed by Sybil Singleton, a distributed team that is passionate about blockchain technology and the future of web3. Dyson was born out of frustration with the current blockchain infrastructure. Most blockchain projects start with an ICO or IDO to raise money before any actual development. We decided to flip that script and show you our MVP first. Our goal is to build value in the DYS ecosystem to be shared among our community, validators, and developers.
+      p Sybil Singleton is an AI / human / nanobot hybrid sent from the future to speed the progression of blockchain development. For what reason? We are not at liberty to say. 
       div(slot="image")
         .phone: img(src="~assets/images/home/section-planet.svg" alt="planet").stargate
         .tablet: img(src="~assets/images/home/section-planet.svg" alt="planet").stargate
         .laptop: img(src="~assets/images/home/section-planet.svg" alt="planet").stargate
         .desktop: img(src="~assets/images/home/section-planet.svg" alt="planet").stargate
-
-    section-news
-    section-logos
 </template>
 
 <script>
@@ -98,18 +93,18 @@ export default {
     return {
       video: null,
       adjectiveId: 0,
-      adjectives: ["powerful", "interoperable", "scalable", "customizable"],
-      adjectiveCurrent: "powerful"
+      adjectives: ["A Blockchain For Developers."],
+      adjectiveCurrent: "A Blockchain For Developers."
     }
   },
   mounted() {
-    setInterval(() => {
-      if (this.adjectiveId === 4) {
-        this.adjectiveId = 0
-      }
-      this.adjectiveCurrent = this.adjectives[this.adjectiveId]
-      this.adjectiveId++
-    }, 2000)
+    // setInterval(() => {
+    //   if (this.adjectiveId === 4) {
+    //     this.adjectiveId = 0
+    //   }
+    //   this.adjectiveCurrent = this.adjectives[this.adjectiveId]
+    //   this.adjectiveId++
+    // }, 2000)
   },
   methods: {
     videoPlay(bool) {

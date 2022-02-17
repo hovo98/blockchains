@@ -2,10 +2,6 @@
 
 > The website for Cosmos - Internet of Blockchains.
 
-[![banner](public/og-image.jpg)](https://v1.cosmos.network)
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5abbcc2b-7b81-4bae-b0c0-cf66bab9e758/deploy-status)](https://app.netlify.com/sites/v1-cosmos-network/deploys)
-
 ## Run this locally
 
 1. `$ git clone https://github.com/cosmos/v1.cosmos.network.git`

@@ -2,26 +2,17 @@
 header.app-header
   .app-header__container
     router-link.app-header__item(:to="{ name: 'index' }" @click.native='close')
-      img(src='~images/site/cosmos-wordmark.svg', alt='Cosmos Wordmark')
+      img(src='~images/site/new-logo.png', alt='DYSON PROTOCOL')
+      span DYSON PROTOCOL
     .app-header__item(@click='toggleMenuApp', v-if='!desktop')
       i.material-icons(v-if='!activeMenuApp') menu
       i.material-icons(v-else='') close
     menu.menu-popup.menu-app(v-if='activeMenuApp || desktop')
       nav
-        router-link.mobile-only(:to="{ name: 'index' }" @click.native="close")
+        router-link(:to="{ name: 'index' }" @click.native="close")
           span Home
-        router-link(:to="{ name: 'intro' }" @click.native="close")
-          span What is Cosmos?
-        router-link(:to="{ name: 'product-sdk' }" @click.native="close")
-          span Build on Cosmos
-        router-link(:to="{ name: 'community' }" @click.native="close")
-          span Community
-        router-link(:to="{ name: 'ecosystem-apps' }" @click.native="close")
-          span Ecosystem
-        router-link(:to="{ name: 'tools' }" @click.native="close")
-          span Tools
-        a(href="https://hub.cosmos.network" @click="close" target="_blank" rel="noreferrer noopener")
-          span Cosmos Hub
+        a(href="https://dysonprotocol.com/documentation" @click="close" target="_blank" rel="noreferrer noopener")
+          span Documentation
 </template>
 
 <script>
@@ -148,7 +139,7 @@ export default {
 
     img
       display block
-      height 1.25rem
+      height 3.25rem
 
   .menu-app
     nav
