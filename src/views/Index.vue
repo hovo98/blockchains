@@ -31,15 +31,15 @@ div
           template(slot="problem-subtitle") Dyson allows you to build serverless websites and DAPPs on the blockchain. Presentation and interface are distributed and built into the protocol. Everything is on chain.
 
 
-        tm-card-issue(icon="scalability")
+        tm-card-issue(icon="eimage")
           template(slot="problem-title") Variable Fees
           template(slot="problem-subtitle") Transaction fees are based on the complexity of your script. Simple scripts = low fees.
 
-        tm-card-issue(icon="usability")
+        tm-card-issue(icon="fimage")
           template(slot="problem-title") Proof Of Stake
           template(slot="problem-subtitle") DYS is proof of stake. Validators can sleep well knowing mining DYS is low environmental impact.
 
-        tm-card-issue(icon="interoperability")
+        tm-card-issue(icon="gimage")
           template(slot="problem-title") Easy Development
           template(slot="problem-subtitle") DYS is designed for developers. Low learning curve. Use code you already know.
 
@@ -57,8 +57,8 @@ div
         .desktop
 
     tm-section(layout="split" theme="stars")
-      div(slot="stargate-title") About Dyson Protocol
-      div(slot="title") Dyson Protocol is developed by Sybil Singleton, a distributed team that is passionate about blockchain technology and the future of web3. Dyson was born out of frustration with the current blockchain infrastructure. Most blockchain projects start with an ICO or IDO to raise money before any actual development. We decided to flip that script and show you our MVP first. Our goal is to build value in the DYS ecosystem to be shared among our community, validators, and developers.
+      div(slot="title") About Dyson Protocol
+      p Dyson Protocol is developed by Sybil Singleton, a distributed team that is passionate about blockchain technology and the future of web3. Dyson was born out of frustration with the current blockchain infrastructure. Most blockchain projects start with an ICO or IDO to raise money before any actual development. We decided to flip that script and show you our MVP first. Our goal is to build value in the DYS ecosystem to be shared among our community, validators, and developers.
       p Sybil Singleton is an AI / human / nanobot hybrid sent from the future to speed the progression of blockchain development. For what reason? We are not at liberty to say. 
       div(slot="image")
         .phone: img(src="~assets/images/home/section-planet.svg" alt="planet").stargate
