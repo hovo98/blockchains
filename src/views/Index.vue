@@ -60,11 +60,7 @@ div
       div(slot="title") About Dyson Protocol
       p Dyson Protocol is developed by Sybil Singleton, a distributed team that is passionate about blockchain technology and the future of web3. Dyson was born out of frustration with the current blockchain infrastructure. Most blockchain projects start with an ICO or IDO to raise money before any actual development. We decided to flip that script and show you our MVP first. Our goal is to build value in the DYS ecosystem to be shared among our community, validators, and developers.
       p Sybil Singleton is an AI / human / nanobot hybrid sent from the future to speed the progression of blockchain development. For what reason? We are not at liberty to say. 
-      div(slot="image")
-        .phone: img(src="~assets/images/home/section-planet.svg" alt="planet").stargate
-        .tablet: img(src="~assets/images/home/section-planet.svg" alt="planet").stargate
-        .laptop: img(src="~assets/images/home/section-planet.svg" alt="planet").stargate
-        .desktop: img(src="~assets/images/home/section-planet.svg" alt="planet").stargate
+
 </template>
 
 <script>
@@ -105,6 +101,10 @@ export default {
     //   this.adjectiveCurrent = this.adjectives[this.adjectiveId]
     //   this.adjectiveId++
     // }, 2000)
+    $(".image").css('z-index', -1);
+    // $(".background-stars-container").css('background-image', 'url("/img/bg-d.81418c18.jpg")');
+    // $(".background-stars-container").css('background-image', 'url("/assets/images/site/bg-d.jpg")');
+
   },
   methods: {
     videoPlay(bool) {
@@ -117,7 +117,7 @@ export default {
       })
       this.video = bool
     }
-  }
+  },
 }
 </script>
 
@@ -166,8 +166,8 @@ img.stargate
     max-height 75vh
 
 #section-hero
-  background url('~images/site/bg-tile-stars.svg'), linear-gradient(135deg, rgb(15,13,32,1) 0%, rgb(4,4,5) 25%, rgb(33,34,77) 53%, rgb(68,110,183) 100%)
-  background-size 256px 256px, auto
+  background: url(/img/bg-a.78fcdd8c.jpg);
+  background-repeat: no-repeat;
 
 #section-validators .tm-section__image
   img
@@ -175,8 +175,8 @@ img.stargate
     margin 0 auto
 
 #section-sdk
-  background url('~images/site/bg-tile-stars.svg'), linear-gradient(135deg, #202854, #171B39)
-  background-size 256px 256px, 100%
+  background:url('~images/site/bg-b.jpg')
+  background-size: cover
 
 @media screen and (min-width: 768px)
   #section-validators .tm-section__image
@@ -187,11 +187,6 @@ img.stargate
   #section-sdk .tm-section__image
     img
       max-width 450px
-
-@media screen and (min-width: 1024px)
-  #section-sdk
-    background url('~images/home/section-sdk-desktop.svg') right center no-repeat, url('~images/site/bg-tile-stars.svg'), linear-gradient(135deg, #202854, #171B39)
-    background-size auto 100%, 256px 256px, auto
 
 @media screen and (min-width: 1920px)
   #section-explorer

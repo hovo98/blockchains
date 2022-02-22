@@ -51,6 +51,10 @@ Vue.use(VTooltip)
 
 Vue.config.productionTip = false
 
+global.jQuery = require('jquery');
+var $ = global.jQuery;
+window.$ = $;
+
 /* eslint-disable no-new */
 new Vue({
   router,

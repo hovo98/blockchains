@@ -349,8 +349,7 @@ export default {
 
 
 .tm-section--stars
-  background url('~images/site/bg-tile-stars.svg'), var(--dark-bg) !important
-  background-size 256px 256px !important
+  background url('~images/site/bg-c.jpg')!important
 
 .tm-section__suptitle
   color var(--secondary)
