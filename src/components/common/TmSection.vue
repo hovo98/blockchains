@@ -349,7 +349,9 @@ export default {
 
 
 .tm-section--stars
-  background url('~images/site/bg-c.jpg')!important
+  background url('~images/site/bg-c2.jpg')!important
+  background-size cover !important;
+
 
 .tm-section__suptitle
   color var(--secondary)
