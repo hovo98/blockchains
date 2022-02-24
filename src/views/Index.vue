@@ -18,28 +18,28 @@ div
       div(slot="title") Made For Developers
       .tm-cards-issue
 
-        tm-card-issue(icon="bimage")
+        tm-card-issue(icon="Secure")
           template(slot="problem-title") Simple, Secure Scripts In Python
           template(slot="problem-subtitle") Code in simple syntax that you're already used to. Dyson Protocol reads Python and outputs in REST / JSON. Dyson solves the difficult security problems that makes this impossible on other chains..
 
-        tm-card-issue(icon="cimage")
+        tm-card-issue(icon="Interoperable")
           template(slot="problem-title") Fully Interoperable with the Cosmos Ecosystem
           template(slot="problem-subtitle") Dyson operates using the Cosmos SDK and Inter-Blockchain Communication Protocol. <br><br><br>
 
-        tm-card-issue(icon="dimage")
+        tm-card-issue(icon="Build")
           template(slot="problem-title") Build A Decentralized Website or Web App
           template(slot="problem-subtitle") Dyson allows you to build serverless websites and DAPPs on the blockchain. Presentation and interface are distributed and built into the protocol. Everything is on chain.
 
 
-        tm-card-issue(icon="eimage")
+        tm-card-issue(icon="Variable")
           template(slot="problem-title") Variable Fees
           template(slot="problem-subtitle") Transaction fees are based on the complexity of your script. Simple scripts = low fees.
 
-        tm-card-issue(icon="fimage")
+        tm-card-issue(icon="Proof")
           template(slot="problem-title") Proof Of Stake
           template(slot="problem-subtitle") DYS is proof of stake. Validators can sleep well knowing mining DYS is low environmental impact.
 
-        tm-card-issue(icon="gimage")
+        tm-card-issue(icon="Easy")
           template(slot="problem-title") Easy Development
           template(slot="problem-subtitle") DYS is designed for developers. Low learning curve. Use code you already know.
 
