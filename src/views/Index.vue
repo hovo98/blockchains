@@ -166,7 +166,7 @@ img.stargate
     max-height 75vh
 
 #section-hero
-  background: url(/img/bg-a.78fcdd8c.jpg);
+  background: url('~images/site/bg-a.jpg');
   background-repeat: no-repeat;
 
 #section-validators .tm-section__image
