@@ -76,7 +76,10 @@ export default {
     "project-title",
     "goz-wordmark",
     "stargate-title"
-  ]
+  ],
+  mounted() {
+    $(".tm-section--stars .tm-section__image").remove();
+  }
 }
 </script>
 
@@ -156,6 +159,8 @@ export default {
 
   .tm-section__main
     padding 0
+    margin auto
+    margin-top 40px
 
   &:last-child
     padding-bottom 0
@@ -466,6 +471,8 @@ export default {
       padding-top 0
       padding-left 0
       padding-right 0
+      margin auto
+      margin-top 40px
 
   .tm-section--hero
     display flex

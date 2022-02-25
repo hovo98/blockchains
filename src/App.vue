@@ -29,9 +29,9 @@ export default {
     return {
       newsletterShow: true,
       newsletter: {
-        h1: "Email capture",
+        h1: "Get Updates",
         h2:
-          "Get the latest from the Cosmos ecosystem and engineering updates, straight to your inbox.",
+          "Get the latest about Dyson Protocol in your inbox, including development grants, airdrops, and project updates.",
         topics: [
           {
             h1: "Tools & technology",
