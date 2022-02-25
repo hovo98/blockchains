@@ -22,7 +22,7 @@ div
           template(slot="problem-title") Simple, Secure Scripts In Python
           template(slot="problem-subtitle") Code in simple syntax that you're already used to. Dyson Protocol reads Python and outputs in REST / JSON. Dyson solves the difficult security problems that makes this impossible on other chains..
 
-        tm-card-issue(icon="Interoperable")
+        tm-card-issue(icon="Fully")
           template(slot="problem-title") Fully Interoperable with the Cosmos Ecosystem
           template(slot="problem-subtitle") Dyson operates using the Cosmos SDK and Inter-Blockchain Communication Protocol. <br><br><br>
 

@@ -86,6 +86,12 @@ export default {
 <style lang="stylus">
 @import '~variables'
 
+.tm-section--stars .tm-section__header
+  margin-left 272px
+
+.tm-section--stars .tm-section__main
+  margin auto
+
 .tm-field
   background var(--app-bg)
   color var(--bright)
@@ -159,8 +165,6 @@ export default {
 
   .tm-section__main
     padding 0
-    margin auto
-    margin-top 40px
 
   &:last-child
     padding-bottom 0
@@ -471,8 +475,6 @@ export default {
       padding-top 0
       padding-left 0
       padding-right 0
-      margin auto
-      margin-top 40px
 
   .tm-section--hero
     display flex
