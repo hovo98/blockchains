@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["series"],{f431:function(e,n,r){"use strict";r.r(n);var s=function(){var e=this,n=e.$createElement,r=e._self._c||n;return r("router-view")},t=[],u={name:"page-series"},a=u,i=r("2877"),l=Object(i["a"])(a,s,t,!1,null,null,null);n["default"]=l.exports}}]);
+//# sourceMappingURL=series.d51faee2.js.map

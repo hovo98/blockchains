@@ -11,7 +11,7 @@
     "serve": "vue-cli-service serve",
     "postserve": "./post.sh",
     "test:unit": "vue-cli-service test:unit",
-    "build": "npm run build:site",
+    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint && npm run lint:json && npm run lint:md",
     "lint:json": "prettier \"**/*.json\" --write",
     "lint:md": "prettier \"**/*.md\" --write && remark . && textlint \"docs/**\" && textlint \"content/**\""

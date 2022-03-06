@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["events"],{aa9c:function(e,n,t){"use strict";t.r(n);var a=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("router-view")},r=[],s={name:"page-events"},u=s,c=t("2877"),l=Object(c["a"])(u,a,r,!1,null,null,null);n["default"]=l.exports}}]);
+//# sourceMappingURL=events.ade94ec9.js.map
